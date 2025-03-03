@@ -1,9 +1,13 @@
 ---
 import Layout from '../layouts/Layout.astro'
+import { getCollection } from 'astro:content'
+
+const books = await getCollection('books')
+console.log(books)
 ---
 
 <Layout>
-	<h1 class='text-center text-7xl font-extrabold'>
-		Dev<span class='block'>Books</span>
-	</h1>
+  <h1 class='text-center text-7xl font-extrabold'>
+    Dev<span class='block'>Books</span>
+  </h1>
 </Layout>
