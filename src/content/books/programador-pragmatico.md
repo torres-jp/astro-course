@@ -1,7 +1,7 @@
 ---
 title: Programador Pragmatico
 author: Packt
-image: https://images-na.ssl-images-amazon.com/images/I/515-h9v-4KL._SX329_BO1,204,203,200_.jpg
+img: programador-pragmatico.jpg
 readtime: 224
 description: Programador Pragmatico es un libro que te enseñará a programar de manera eficiente y sencilla.
 buy:
@@ -9,7 +9,7 @@ buy:
   usa: https://www.amazon.com/Programador-Pragmatico-Packt-Publishing-ebook/dp/B078H5Z5M1
 ---
 
-Programador Pragmatico es un libro que te enseñará a programar de manera eficiente y sencilla.*** Este libro es para desarrolladores que quieren aprender a programar de manera eficiente y sencilla,** y también para personas que quieren aprender a manejar el desarrollo de software.
+Programador Pragmatico es un libro que te enseñará a programar de manera eficiente y sencilla.**\* Este libro es para desarrolladores que quieren aprender a programar de manera eficiente y sencilla,** y también para personas que quieren aprender a manejar el desarrollo de software.
 
 ## ¿Qué aprenderás?
 
@@ -22,7 +22,7 @@ Aprendiendo Git cubrirá los siguientes temas:
 - Cómo trabajar con repositorios locales
 - Cómo trabajar con ramas locales
 - Cómo trabajar con diferentes ramas
-- Cómo trabajar con ramas compartidas                                                   
+- Cómo trabajar con ramas compartidas
 
 ## ¿Qué no aprenderás?
 
@@ -38,8 +38,8 @@ Puedes encontrar más libros sobre Git en el sitio web de Aprendiendo Git.
 
 ## ¿Cómo puedo ayudar a mejorar este libro?
 
-Si tienes alguna sugerencia o comentario sobre este libro, por favor envía un correo electrónico a [learngitbook@gmail.com](mailto:learngitbook@gmail.com). También puedes abrir un problema en el repositorio de Aprendiendo Git en GitHub.    
+Si tienes alguna sugerencia o comentario sobre este libro, por favor envía un correo electrónico a [learngitbook@gmail.com](mailto:learngitbook@gmail.com). También puedes abrir un problema en el repositorio de Aprendiendo Git en GitHub.
 
 ## ¿Quién escribió este libro?
 
-Este libro fue escrito por [Scott Chacon](https://twitter.com/schacon) y [Ben Straub](https://twitter.com/benstraub).   
+Este libro fue escrito por [Scott Chacon](https://twitter.com/schacon) y [Ben Straub](https://twitter.com/benstraub).

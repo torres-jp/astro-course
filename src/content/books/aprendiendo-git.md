@@ -1,7 +1,7 @@
 ---
 title: Aprendiendo Git
 author: GitHub
-image: https://images-na.ssl-images-amazon.com/images/I/515-h9v-4KL._SX329_BO1,204,203,200_.jpg
+img: aprendiendo-git.jpg
 readtime: 224
 description: Aprendiendo Git es un libro que te enseñará a usar Git de manera eficiente y sencilla.
 buy:
@@ -9,7 +9,7 @@ buy:
   usa: https://www.amazon.com/Aprendiendo-Git-Scott-Chacon/dp/149195761X
 ---
 
-Aprendiendo Git es un libro que te enseñará a usar Git de manera eficiente y sencilla.*** Este libro es para desarrolladores que quieren aprender a trabajar con Git,** y también para personas que quieren aprender a manejar el control de versiones de sus proyectos.
+Aprendiendo Git es un libro que te enseñará a usar Git de manera eficiente y sencilla.**\* Este libro es para desarrolladores que quieren aprender a trabajar con Git,** y también para personas que quieren aprender a manejar el control de versiones de sus proyectos.
 
 ## ¿Qué aprenderás?
 
@@ -22,7 +22,7 @@ Aprendiendo Git cubrirá los siguientes temas:
 - Cómo trabajar con repositorios locales
 - Cómo trabajar con ramas locales
 - Cómo trabajar con diferentes ramas
-- Cómo trabajar con ramas compartidas                                                   
+- Cómo trabajar con ramas compartidas
 
 ## ¿Qué no aprenderás?
 
@@ -38,17 +38,16 @@ Puedes encontrar más libros sobre Git en el sitio web de Aprendiendo Git.
 
 ## ¿Cómo puedo ayudar a mejorar este libro?
 
-Si tienes alguna sugerencia o comentario sobre este libro, por favor envía un correo electrónico a [learngitbook@gmail.com](mailto:learngitbook@gmail.com). También puedes abrir un problema en el repositorio de Aprendiendo Git en GitHub.    
+Si tienes alguna sugerencia o comentario sobre este libro, por favor envía un correo electrónico a [learngitbook@gmail.com](mailto:learngitbook@gmail.com). También puedes abrir un problema en el repositorio de Aprendiendo Git en GitHub.
 
 ## ¿Quién escribió este libro?
 
-Este libro fue escrito por [Scott Chacon](https://twitter.com/schacon) y [Ben Straub](https://twitter.com/benstraub).    
+Este libro fue escrito por [Scott Chacon](https://twitter.com/schacon) y [Ben Straub](https://twitter.com/benstraub).
 
 ## ¿Qué es Git?
 
-Git es un sistema de control de versiones distribuido. Permite hacer versiones de tus archivos y compartir tus cambios con otros desarrolladores. Git es muy popular y se utiliza en una amplia variedad de proyectos.    
+Git es un sistema de control de versiones distribuido. Permite hacer versiones de tus archivos y compartir tus cambios con otros desarrolladores. Git es muy popular y se utiliza en una amplia variedad de proyectos.
 
 ## ¿Qué es GitHub?
 
-GitHub es una plataforma de alojamiento de código abierto que permite compartir y colaborar en proyectos de software. GitHub es muy popular y se utiliza en una amplia variedad de proyectos.    
-
+GitHub es una plataforma de alojamiento de código abierto que permite compartir y colaborar en proyectos de software. GitHub es muy popular y se utiliza en una amplia variedad de proyectos.

@@ -1,7 +1,7 @@
 ---
 title: Learning TypeScript
 author: Packt
-image: https://images-na.ssl-images-amazon.com/images/I/515-h9v-4KL._SX329_BO1,204,203,200_.jpg
+img: learning-typescript.jpg
 readtime: 224
 description: Learning TypeScript is a hands-on guide to TypeScript, a modern language for the front-end that compiles to JavaScript.
 buy:
@@ -55,7 +55,7 @@ If you have questions about this book, please contact the publisher by the follo
 
 ## About the authors
 
-This book is written by [Pablo Ruiz](https://twitter.com/pabloruiz55) and [Pablo Villar](https://twitter.com/pablovillar).    
+This book is written by [Pablo Ruiz](https://twitter.com/pabloruiz55) and [Pablo Villar](https://twitter.com/pablovillar).
 
 ## About the publisher
 

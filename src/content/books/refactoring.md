@@ -1,7 +1,7 @@
---- 
+---
 title: Refactoring
 author: Martin Fowler
-image: https://images-na.ssl-images-amazon.com/images/I/515-h9v-4KL._SX329_BO1,204,203,200_.jpg
+img: refactoring.jpg
 readtime: 224
 description: Refactoring is a process of improving the design of existing code without changing its external behavior.
 buy:
@@ -54,8 +54,8 @@ If you have questions about this book, please contact the publisher by the follo
 
 ## About the authors
 
-This book is written by [Martin Fowler](https://twitter.com/martinfowler).    
+This book is written by [Martin Fowler](https://twitter.com/martinfowler).
 
 ## About the publisher
 
-This book is published by [Packt Publishing](https://www.packtpub.com/).    
+This book is published by [Packt Publishing](https://www.packtpub.com/).
