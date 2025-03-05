@@ -4,6 +4,7 @@ import { SHOW_BUY_BUTTON } from 'astro:env/server'
 import { getCollection, render } from 'astro:content'
 import AmazonLogo from '../../components/AmazonLogo.astro'
 import BookScore from '../../components/BookScore.astro'
+import BuyButton from '../../components/BuyButton.astro'
 
 export async function getStaticPaths() {
   const books = await getCollection('books')
@@ -18,6 +19,8 @@ const { book } = Astro.props
 const { data, slug } = book
 const { title, author, img, readtime, buy, description } = data
 const { Content } = await render(book)
+
+export const prerender = true
 ---
 
 <Layout>
@@ -32,22 +35,13 @@ const { Content } = await render(book)
         alt={title}
         class='rounded w-72 h-auto'
       />
-      <BookScore id={slug} />
+      <BookScore server:defer id={slug}>
+        <span slot='fallback' class='text-xs opacity-70'
+          >Cargando puntuacion...</span
+        >
+      </BookScore>
 
-      {
-        SHOW_BUY_BUTTON && (
-          <a
-            href={buy.spain}
-            title='Comprar en Amazon Spain'
-            target='_blank'
-            rel='noopener noreferrer'
-            class='text-balance  inline-flex gap-2 items-center bg-yellow-400 hover:bg-yellow-500 active:bg-yellow-600 text-black font-bold py-2 px-4 rounded-lg border border-yellow-500 transition duration-200 ease-in-out hover:scale-105 justify-center text-center'
-          >
-            Comprar En Amazon Spain
-            <AmazonLogo />
-          </a>
-        )
-      }
+      {SHOW_BUY_BUTTON && <BuyButton server:defer buy={buy} />}
     </aside>
     <main class='max-w-3xl'>
       <h1 transition:name={`title-${slug}`} class='text-4xl font-bold mb-4'>
