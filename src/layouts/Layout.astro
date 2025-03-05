@@ -1,32 +1,36 @@
 ---
+import { ClientRouter } from 'astro:transitions'
 import './src/styles/global.css'
 ---
 
 <!doctype html>
 <html lang='es'>
-	<head>
-		<meta charset='UTF-8' />
-		<meta name='viewport' content='width=device-width' />
-		<link rel='icon' type='image/svg+xml' href='/favicon.svg' />
-		<meta name='generator' content={Astro.generator} />
-		<title>Astro Basics</title>
-	</head>
-	<body>
-		<div>
-			<slot />
-		</div>
-	</body>
+  <head>
+    <meta charset='UTF-8' />
+    <meta name='viewport' content='width=device-width' />
+    <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
+    <meta name='generator' content={Astro.generator} />
+    <title>Astro Basics</title>
+    <ClientRouter />
+  </head>
+  <body>
+    <div>
+      <slot />
+    </div>
+  </body>
 </html>
 
 <style>
-	html,
-	body {
-		background-color: #13151a;
-		color: #fff;
-		@apply flex justify-center items-center;
-	}
+  html,
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #13151a;
+    color: #fff;
+  }
 
-	body > div {
-		@apply container;
-	}
+  body > div {
+    margin-inline: auto;
+  }
 </style>
